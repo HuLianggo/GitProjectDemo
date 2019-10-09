@@ -18,6 +18,7 @@ public class MyBatisTest {
 		System.out.println("===="+user.getId()+"===="+user.getCity()+"===="+user.getGender()+"====");
 		System.out.println(user.getBirthday());
 		System.out.println(user.getPassword());
+		System.out.println(user.getEmail());
 		sqlSession.close();
 		
 	}
